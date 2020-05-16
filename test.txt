@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 modified.
+=======
+modified (2)
+modified (3)
+>>>>>>> temp
