@@ -41,11 +41,11 @@ int main() {
 			std::cout << "1st trial of sending frame " << df1 << " with SEQ :" << df1.GetBITS3() << std::endl;
 		}
 		else if (N_r == 2) {
-			//std::cout << "[" << st1.GetTimer() << "] ";
+			std::cout << "[" << st1.GetTimer() << "] ";
 			std::cout << "2nd trial of sending frame " << df1 << std::endl;
 		}
 		else if (N_r == 3) {
-			//std::cout << "[" << st1.GetTimer() << "] ";
+			std::cout << "[" << st1.GetTimer() << "] ";
 			std::cout << "3rd trial of sending frame " << df1 << std::endl;
 		}
 

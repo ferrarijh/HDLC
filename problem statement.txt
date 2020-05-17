@@ -1,0 +1,37 @@
+1. You are simulating a simple network environment, in which Computer1 (A) sends data to Computer2
+(B) (Assume that A only sends and B only receives data.) The data link layers of the hosts
+are to be simulated. Whenever a packet from the network layer arrives at the data link layer, the
+sender encapsulates the packet (datagram) into a link layer frame and sends it to the receiver. If
+the receiver receives the frame without errors during transmission, it sends an ACK frame to the
+sender. Note that frames can be lost or corrupted during transmissions. In this case, retransmission
+of frames should be handled by Stop-and-Wait ARQ. Assume that
+
+(a) It randomly takes [1,10] msec for a frame to travel from A to B (i.e., propagation time). So
+the average round trip time (RTT) between two hosts can be assumed to be 11 (=5.5*2) msec.
+Assume a very high speed link between the hosts so that the frame transmission time can be
+ignored.
+
+(b) Assume that packets arrive at the link layer randomly with the average rate of (1/20) packets/
+msec and the size of a packet is 2000 bytes.
+
+(c) The header of a frame contains a Sequence number and an ACK number.
+
+(d) Note that the time-out values of timers should be a little greater than RTT, e.g., 15 msec.
+
+(e) Frames may be corrupted or lost during transmission. You may simulate the frame corruption/
+loss by randomly generating frame corruptions/losses with the frame error probability of
+pe(0 < pe < 1).
+
+(f) Assume that the number of re-transmissions Nr = 3, i.e., if a frame is re-transmitted more
+than Nr, it is dropped.
+
+2. You need to provide the followings for simulation setup. (A user types in the following information
+when a simulation starts.)
+(a) Simulation time (T)
+(b) Frame loss probability (p_l)
+(c) Frame coruption probability (p_c)
+
+3. Output :
+(a)All the activities in every timeline at which any critical event(send, receive, etc) occurs.
+(b)Number of successfully sent frames.
+(c)Number of dropped(failed) frames.
