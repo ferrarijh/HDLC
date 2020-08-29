@@ -9,7 +9,7 @@ When frame is corrupted, receiver sends back NAK to sender and termial outputs <
 <div>
   <img src="https://github.com/ferrarijh/HDLC/blob/master/demo/1.png">
 </div>
-This is what you see as a result.
+This is what you'll see immediately.
 <br></br>
 <div>
   <img src="https://github.com/ferrarijh/HDLC/blob/master/demo/2.png">
