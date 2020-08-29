@@ -12,21 +12,21 @@ When frame is corrupted, receiver sends back NAK to sender and termial outputs <
 This is what you see as a result.
 <br></br>
 <div>
-  <img arc="https://github.com/ferrarijh/HDLC/blob/master/demo/2.png">
+  <img src="https://github.com/ferrarijh/HDLC/blob/master/demo/2.png">
 </div>
 ACK and SEQ alternates between successfully sent frames.
 <br></br>
 <div>
-  <img arc="https://github.com/ferrarijh/HDLC/blob/master/demo/3.png">
+  <img src="https://github.com/ferrarijh/HDLC/blob/master/demo/3.png">
 </div>
 Frames are resent when arrivd frame is corrupted.
 <br></br>
 <div>
-  <img arc="https://github.com/ferrarijh/HDLC/blob/master/demo/4.png">
+  <img src="https://github.com/ferrarijh/HDLC/blob/master/demo/4.png">
 </div>
 Maximum number of attempts to send frame is set to <i>N_r</i> = 3. After 3 trials the frame is dropped and next queued frame will be sent.
 <br></br>
 <div>
-  <img arc="https://github.com/ferrarijh/HDLC/blob/master/demo/5.png">
+  <img src="https://github.com/ferrarijh/HDLC/blob/master/demo/5.png">
 </div>
 Final result is shown at the bottom.
